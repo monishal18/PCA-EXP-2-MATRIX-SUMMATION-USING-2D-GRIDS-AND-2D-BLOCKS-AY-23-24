@@ -34,6 +34,7 @@ Google Colab with NVCC Compiler
 12.	Reset the device: Reset the device using cudaDeviceReset to ensure that all resources are cleaned up before the program exits.
 
 ## PROGRAM:
+```
 %%cuda
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -303,6 +304,7 @@ CHECK(cudaDeviceSynchronize());
 
     return (0);
 }
+```
 
 ## OUTPUT:
 <img width="833" height="187" alt="image" src="https://github.com/user-attachments/assets/6c2c921c-85f6-4ff7-8584-61264be29d35" />
